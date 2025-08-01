@@ -4,7 +4,7 @@ import numpy as np
 import os
 import noisereduce as nr
 from scipy.signal import butter, lfilter
-import moviepy.editor as mp
+from moviepy.editor import VideoFileClip
 
 def extract_audio_from_video(video_input):
     """Extract audio from video file."""
