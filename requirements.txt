@@ -1,4 +1,8 @@
 Flask
 numpy
 scipy
+librosa
+moviepy
+noisereduce
+ffmpeg
 #use latest version, will work fine
